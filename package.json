@@ -1,0 +1,20 @@
+{
+  "name": "error-base",
+  "version": "0.1.0",
+  "description": "LeisureLink error base classes and error utilities for nodejs apps.",
+  "author": "Phillip Clark <phillip@flitbit.com>",
+  "private": true,
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:VacationRoost/error-base.git"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.0.1",
+    "node-uuid": "^1.4.2"
+  }
+}
