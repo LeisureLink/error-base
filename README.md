@@ -1,4 +1,4 @@
-# error-base
+# error-base [![Circle CI](https://circleci.com/gh/VacationRoost/error-base.svg?style=svg)](https://circleci.com/gh/VacationRoost/error-base)
 
 LeisureLink errors and error utilities for nodejs apps.
 
