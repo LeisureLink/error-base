@@ -51,8 +51,8 @@
 
     });
 
-    describe('ConflictError', function() {
-      var type = 'ConflictError';
+    describe('ArgumentError', function() {
+      var type = 'ArgumentError';
       var msg = format('this is error: %s', uuid.v4());
       var err = new errors[type](msg);
 
