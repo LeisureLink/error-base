@@ -164,6 +164,46 @@
       });
 
     });
+
+    describe('UnauthorizedError', function() {
+      var type = 'UnauthorizedError';
+      var msg = format('this is error: %s', uuid.v4());
+      var err = new errors[type](msg);
+
+      it('is an instanceof Error', function() {
+        expect(err).to.be.an(Error);
+      });
+
+      it('conveys error message specified in constructor', function() {
+        expect(err.message).to.be(msg);
+      });
+
+      it('identifies the Error type when converted to a string', function() {
+        expect(err.toString()).to.be(format('%s: %s', type, msg));
+      });
+
+    });
+
+    describe('InauthenticError', function() {
+      var type = 'InauthenticError';
+      var msg = format('this is error: %s', uuid.v4());
+      var err = new errors[type](msg);
+
+      it('is an instanceof Error', function() {
+        expect(err).to.be.an(Error);
+      });
+
+      it('conveys error message specified in constructor', function() {
+        expect(err.message).to.be(msg);
+      });
+
+      it('identifies the Error type when converted to a string', function() {
+        expect(err.toString()).to.be(format('%s: %s', type, msg));
+      });
+
+    });
+
+
   });
 
 })();
