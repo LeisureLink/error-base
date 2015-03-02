@@ -1,6 +1,6 @@
 {
   "name": "error-base",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "LeisureLink error base classes and error utilities for nodejs apps.",
   "author": "Phillip Clark <phillip@flitbit.com>",
   "private": true,
