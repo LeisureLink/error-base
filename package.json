@@ -7,7 +7,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:LeisureLink/error-base.git"
+    "url": "git://git@github.com:LeisureLink/error-base.git"
   },
   "scripts": {
     "test": "mocha -R spec"
@@ -16,5 +16,8 @@
     "expect.js": "^0.3.1",
     "mocha": "^2.0.1",
     "node-uuid": "^1.4.2"
+  },
+  "dependencies": {
+    "foldero": "^0.1.0"
   }
 }
