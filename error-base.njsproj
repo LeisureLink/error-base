@@ -19,19 +19,6 @@
     <Content Include="package.json" />
     <Content Include="README.md" />
     <Compile Include="index.js" />
-    <Compile Include="lib\ArgumentError.js" />
-    <Compile Include="lib\AuthorizationError.js" />
-    <Compile Include="lib\ConflictError.js" />
-    <Compile Include="lib\Error.js" />
-    <Compile Include="lib\ForbiddenError.js" />
-    <Compile Include="lib\InauthenticError.js" />
-    <Compile Include="lib\index.js" />
-    <Compile Include="lib\InvalidOperationError.js" />
-    <Compile Include="lib\NotFoundError.js" />
-    <Compile Include="lib\NotImplementedError.js" />
-    <Compile Include="lib\ServiceUnavailableError.js" />
-    <Compile Include="lib\UnauthorizedError.js" />
-    <Compile Include="lib\UnprocessableEntityError.js" />
     <Compile Include="test\lib-tests.js" />
   </ItemGroup>
   <ItemGroup>
